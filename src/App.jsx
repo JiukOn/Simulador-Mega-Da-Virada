@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { MARKET_DATA_2025, CURIOSIDADES_AVANCADAS } from './database';
 import { 
-  Plane, Building2, Briefcase, Film, HeartPulse, Coins, 
+  Plane, Building2, Briefcase, Film, HeartPulse, GraduationCap, Coins, 
   TrendingUp, PiggyBank, BarChart3, AlertTriangle, Gamepad2, Smartphone, 
   Car, Fuel, Bitcoin, Globe, ShoppingBag, Megaphone, Clapperboard, BookOpen,
   Tractor, TrainFront, Server, Users, Cone, Landmark, Ticket, HelpCircle,
@@ -11,8 +11,6 @@ import {
   AreaChart, Area, XAxis, YAxis, Tooltip, ResponsiveContainer, CartesianGrid,
   BarChart, Bar, Legend, Cell
 } from 'recharts';
-
-const MARKET_DATA = MARKET_DATA_2025;
 
 const PROBABILIDADES = {
   6: '1 em 50.063.860',
