@@ -12,6 +12,9 @@ import {
   BarChart, Bar, Legend, Cell
 } from 'recharts';
 
+/* --- CORREÇÃO DO ERRO MARKET_DATA --- */
+const MARKET_DATA = MARKET_DATA_2025;
+
 const PROBABILIDADES = {
   6: '1 em 50.063.860',
   7: '1 em 7.151.980',
